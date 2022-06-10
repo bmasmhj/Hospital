@@ -1,0 +1,1386 @@
+
+.csp_section li,
+.csp_section ul {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    list-style: none;
+}
+
+.csp_section ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.csp_section {
+    padding: 0;
+    margin: 0 0 4px 0;
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.csp_section .container {
+    padding: 0 30px;
+    width: 100%;
+}
+
+.csp_section .fullinner {
+    position: relative;
+    width: 100%;
+    background-image: url(../../body/cs-bg.jpg);
+}
+.bg_csp{
+    /* position: relative;   */
+    width: 100%;
+    background-image: url(../../body/cs-bg.jpg)!important;
+}
+
+.csp_section .inner {
+    max-width: 1580px;
+    padding: 0 80px;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.csp_section .mid_img {
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    margin-left: -335px;
+    width: 670px;
+}
+
+.csp_section .mid_img>img {
+    width: 100%;
+}
+
+.left_txt {
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.left_txt h2 {
+    font-size: 28px;
+    color: #fff;
+    /* font-family: frutiger_ce_55_romanregular; */
+    margin-bottom: 15px;
+}
+
+.left_txt .btn_list2 {
+    display: inline-block;
+    padding-bottom: 10px;
+    border: none;
+}
+
+.left_txt .nav-pills a{
+    font-size: 14px;
+    color: #fff;
+    border: 2px solid #fff !important;
+    border-radius: 4px !important;
+    text-align: center;
+    /* font-family: FrutigerLTStd55Roman; */
+    padding: 0 10px !important;
+    line-height: 30px;
+    min-width: 80px;
+}
+.left_txt>ul{
+    list-style-type: none;
+}
+
+.left_txt .nav-pills a:hover {
+    color: #000;
+}
+
+.left_txt .nav-pills li.active a {
+    background-color: #fff !important;
+    color: #000;
+}
+
+.left_txt .btn_list2 li {
+    float: left;
+    padding-right: 15px;
+}
+
+.left_txt .btn_list2 li a {
+    float: left;
+    min-width: 105px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #fff;
+    border: 2px solid #fff !important;
+    border-radius: 4px !important;
+    text-align: center;
+    /* font-family: FrutigerLTStd55Roman; */
+    padding: 0;
+}
+
+.left_txt .btn_list2 li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.left_txt .btn_list2 li.active a {
+    background-color: #fff !important;
+    color: #000;
+    border: 2px solid #fff !important;
+    border-radius: 4px !important;
+}
+
+.left_txt p {
+    color: #fff;
+    font-size: 15px;
+    padding-bottom: 0;
+}
+
+.left_txt .btn_list2 li:last-child {
+    padding-right: 0;
+}
+
+.left_txt .form-group {
+    padding-right: 50px;
+}
+
+.left_txt .form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding-left: 0;
+    height: 46px;
+    letter-spacing: 1px;
+    color: #fff;
+    /* font-family: FrutigerLTStd55Roman; */
+}
+
+.left_txt .form-control::-moz-placeholder {
+    opacity: 1;
+    color: #fff;
+}
+
+.left_txt .form-control::-webkit-input-placeholder {
+    opacity: 1;
+    color: #fff;
+}
+
+.right_txt {
+    width: 320px;
+    position: absolute;
+    left: -350px;
+    top: -35px;
+    text-align: left;
+    z-index: 90;
+    transition: all 0.25s ease-in 0s;
+    -webkit-transition: all 0.25s ease-in 0s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.right_txt .inner_dd {
+    width: 100%;
+    border: 1px dashed #f87a2f;
+    background-color: #195b68;
+    max-height: 350px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.right_txt:before {
+    content: "";
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #f87a2f;
+    position: absolute;
+    right: -10px;
+    top: 35px;
+}
+
+.right_txt .inner_dd>ul {
+    float: left;
+    width: 100%;
+    padding: 20px 0;
+    flex-direction: column;
+}   
+
+.right_txt .inner_dd>ul>li {
+    float: left;
+    width: 100%;
+    list-style: none;
+}
+
+.right_txt .inner_dd>ul>li>a {
+    float: left;
+    width: 100%;
+    color: #fff;
+    font-size: 15px;
+    padding: 8px 20px;
+    /* font-family: FrutigerLTStd55Roman; */
+}
+
+.right_txt .inner_dd>ul>li>a:hover {
+    background-color: #f87a2f;
+}
+
+.right_txt .inner_dd a.btn {
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: #f87a2f;
+    border: 1px solid #fff;
+    /* font-family: FrutigerLTStd55Roman; */
+    line-height: 36px;
+    margin-left: 20px;
+    padding: 0 10px;
+}
+
+.right_txt .inner_dd a.btn:before {
+    display: none;
+}
+
+.right_txt .inner_dd>ul>li>a:before {
+    display: none;
+}
+
+.right_txt p {
+    color: #fff;
+    background-color: #f87a2f;
+    /* font-family: FrutigerLTStd55Roman; */
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    display: none;
+    border-radius: 5px 5px 0 0;
+    margin: 0;
+}
+
+.structure {
+    text-align: center;
+    position: relative;
+    max-width: 695px;
+    margin: auto;
+}
+
+.structure>img {
+    max-width: 410px;
+    display: inline-block;
+    width: 100%;
+}
+
+.body_list {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.body_list.right {
+    left: auto;
+    right: 0;
+}
+
+.body_list>li {
+    position: absolute;
+    top: 0;
+}
+
+.body_list>li:hover .right_txt {
+    opacity: 1;
+    visibility: visible;
+    left: -360px;
+}
+
+.body_list>li:hover>a {
+    color: #f87a2f;
+}
+
+.body_list.right .right_txt {
+    right: -415px;
+    left: auto;
+    top: -30px;
+}
+
+.body_list.right .right_txt:before {
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #f87a2f transparent transparent;
+    right: auto;
+    top: 30px;
+    left: -10px;
+}
+
+.body_list.right>li:hover .right_txt {
+    opacity: 1;
+    visibility: visible;
+    right: -405px;
+    left: auto;
+}
+
+.body_list>li>a {
+    position: relative;
+    color: #fff;
+    /* font-family: FrutigerLTStd55Roman; */
+    font-size: 16px;
+    transition: none;
+}
+
+.body_list>li>a:hover {
+    color: #f87a2f;
+}
+
+.body_list>li>a>.txt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+    color: #fff;
+}
+
+.body_list>li:hover>a .txt,
+.body_list>li>a:hover .txt {
+    transform: scale(1.5);
+    top: -1px;
+    left: -10px;
+    color: #f87a2f;
+}
+
+.structure.male .body_list.left>li.eyeMpointer {
+    left: 70px;
+    top: 48px;
+}
+
+.structure.male .body_list.left>li.eyeMpointer>a:before {
+    content: url(../../body/parts/earMPointerImgWhite.png);
+    position: absolute;
+    right: -265px;
+}
+
+.body_list.left>li.eyeMpointer>a:hover:before,
+.structure.male .body_list.left>li.eyeMpointer:hover>a:before {
+    content: url(../../body/parts/eyeMpointerImgRed.png);
+}
+
+.structure.male .body_list.left>li.earMPointer {
+    left: 50px;
+    top: 65px;
+}
+
+.structure.male .body_list.left>li.earMPointer>a:before {
+    content: url(../../body/parts/earMPointerImgWhite.png);
+    position: absolute;
+    right: -265px;
+}
+
+.body_list.left>li.earMPointer>a:hover:before,
+.structure.male .body_list.left>li.earMPointer:hover>a:before {
+    content: url(../../body/parts/earMPointerImgRed.png);
+}
+
+.structure.male .body_list.left>li.teethMpointer {
+    left: 80px;
+    top: 100px;
+}
+
+.structure.male .body_list.left>li.teethMpointer>a:before {
+    content: url(../../body/parts/teethMpointerImgWhite.png);
+    position: absolute;
+    right: -260px;
+    top: -14px;
+}
+
+.body_list.left>li.teethMpointer>a:hover:before,
+.structure.male .body_list.left>li.teethMpointer:hover>a:before {
+    content: url(../../body/parts/teethMpointerImgRed.png);
+}
+
+.structure.male .body_list.left>li.throatMpointer {
+    left: 80px;
+    top: 135px;
+}
+
+.structure.male .body_list.left>li.throatMpointer>a:before {
+    content: url(../../body/parts/throatMpointerImgWhite.png);
+    position: absolute;
+    right: -260px;
+    top: -23px;
+}
+
+.body_list.left>li.throatMpointer>a:hover:before,
+.structure.male .body_list.left>li.throatMpointer:hover>a:before {
+    content: url(../../body/parts/throatMpointerImgRed.png);
+}
+
+.structure.male .body_list.left>li.chestMpointer {
+    left: 15px;
+    top: 165px;
+}
+
+.structure.male .body_list.left>li.chestMpointer>a:before {
+    content: url(../../body/parts/chestMpointerImgWhite.png);
+    position: absolute;
+    right: -305px;
+    top: -2px;
+}
+
+.body_list.left>li.chestMpointer>a:hover:before,
+.structure.male .body_list.left>li.chestMpointer:hover>a:before {
+    content: url(../../body/parts/chestMpointerImgRed.png);
+}
+
+.structure.male .body_list.left>li.liverMpointer {
+    left: 30px;
+    top: 195px;
+}
+
+.structure.male .body_list.left>li.liverMpointer>a:before {
+    content: url(../../body/parts/liverMpointerImgWhite.png);
+    position: absolute;
+    right: -303px;
+    top: 0;
+}
+
+.body_list.left>li.liverMpointer>a:hover:before,
+.structure.male .body_list.left>li.liverMpointer:hover>a:before {
+    content: url(../../body/parts/liverMpointerImgRed.png);
+}
+
+.structure.male .body_list.left>li.handMpointer {
+    left: -5px;
+    top: 235px;
+}
+
+.structure.male .body_list.left>li.handMpointer>a:before {
+    content: url(../../body/parts/handMpointerImgWhite.png);
+    position: absolute;
+    right: -250px;
+    top: -2px;
+}
+
+.body_list.left>li.handMpointer>a:hover:before,
+.structure.male .body_list.left>li.handMpointer:hover>a:before {
+    content: url(../../body/parts/handMpointerImgRed.png);
+}
+
+.structure.male .body_list.left>li.kidneysMpointer {
+    left: 55px;
+    top: 265px;
+}
+
+.structure.male .body_list.left>li.kidneysMpointer>a:before {
+    content: url(../../body/parts/kidneysMpointerImgWhite.png);
+    position: absolute;
+    right: -262px;
+    top: 8px;
+}
+
+.body_list.left>li.kidneysMpointer>a:hover:before,
+.structure.male .body_list.left>li.kidneysMpointer:hover>a:before {
+    content: url(../../body/parts/kidneysMpointerImgRed.png);
+}
+
+.structure.male .body_list.left>li.lowerBackMpointer {
+    left: 50px;
+    top: 330px;
+}
+
+.structure.male .body_list.left>li.lowerBackMpointer>a:before {
+    content: url(../../body/parts/lowerBackMpointerImgWhite.png);
+    position: absolute;
+    right: -285px;
+    top: -7px;
+}
+
+.body_list.left>li.lowerBackMpointer>a:hover:before,
+.structure.male .body_list.left>li.lowerBackMpointer:hover>a:before {
+    content: url(../../body/parts/lowerBackMpointerImgRed.png);
+}
+
+.body_list.left>li.lowerBackMpointer>a:hover .txt,
+.structure.male .body_list.left>li.lowerBackMpointer:hover>a .txt {
+    transform: scale(1.5);
+    top: -1px;
+    left: -20px;
+    color: #f87a2f;
+}
+
+.structure.male .body_list.left>li.lowerBackMpointer .right_txt {
+    left: -370px;
+}
+
+.structure.male .body_list.left>li.lowerBackMpointer:hover .right_txt {
+    left: -380px;
+}
+
+.structure.male .body_list.left>li.lowerBackMpointer>a>.txt {
+    white-space: nowrap;
+}
+
+.structure.male .body_list.left>li.reproductiveMpointer {
+    left: 55px;
+    top: 365px;
+}
+
+.structure.male .body_list.left>li.reproductiveMpointer>a:before {
+    content: url(../../body/parts/reproductiveMpointerImgWhite.png);
+    position: absolute;
+    right: -292px;
+    top: -3px;
+}
+
+.body_list.left>li.reproductiveMpointer>a:hover:before,
+.structure.male .body_list.left>li.reproductiveMpointer:hover>a:before {
+    content: url(../../body/parts/reproductiveMpointerImgRed.png);
+}
+
+.body_list.left>li.reproductiveMpointer>a:hover .txt,
+.structure.male .body_list.left>li.reproductiveMpointer:hover>a .txt {
+    transform: scale(1.5);
+    top: -1px;
+    left: -20px;
+    color: #f87a2f;
+}
+
+.structure.male .body_list.left>li.reproductiveMpointer .right_txt {
+    left: -370px;
+}
+
+.structure.male .body_list.left>li.reproductiveMpointer:hover .right_txt {
+    left: -380px;
+}
+
+.structure.male .body_list.left>li.reproductiveMpointer>a>.txt {
+    text-align: left;
+    line-height: 16px;
+}
+
+.structure.male .body_list.left>li.thighMpointer {
+    left: 100px;
+    top: 440px;
+}
+
+.structure.male .body_list.left>li.thighMpointer>a:before {
+    content: url(../../body/parts/elbowMpointerImgWhite.png);
+    position: absolute;
+    right: -205px;
+    top: 0;
+}
+
+.body_list.left>li.thighMpointer>a:hover:before,
+.structure.male .body_list.left>li.thighMpointer:hover>a:before {
+    content: url(../../body/parts/thighMpointerImgRed.png);
+}
+
+.structure.male .body_list.left>li.footMpointer {
+    left: 50px;
+    top: 635px;
+}
+
+.structure.male .body_list.left>li.footMpointer>a:before {
+    content: url(../../body/parts/footMpointerImgWhite.png);
+    position: absolute;
+    right: -265px;
+    top: 8px;
+}
+
+.body_list.left>li.footMpointer>a:hover:before,
+.structure.male .body_list.left>li.footMpointer:hover>a:before {
+    content: url(../../body/parts/footMpointerImgRed.png);
+}
+
+.structure.male .body_list.right>li>a>.txt {
+    left: auto;
+    right: -40px;
+}
+
+.body_list.right>li>a:hover .txt,
+.structure.male .body_list.right>li:hover>a .txt {
+    left: auto;
+    right: -50px;
+}
+
+.structure.male .body_list.right>li.brainMpointer {
+    left: -132px;
+    top: 60px;
+}
+
+.structure.male .body_list.right>li.brainMpointer>a:before {
+    content: url(../../body/parts/brainMpointerImgWhite.png);
+    position: absolute;
+    left: -210px;
+    top: -22px;
+    width: 200px;
+}
+
+.body_list.right>li.brainMpointer>a:hover:before,
+.structure.male .body_list.right>li.brainMpointer:hover>a:before {
+    content: url(../../body/parts/brainMpointerImgRed.png);
+}
+
+.structure.male .body_list.right>li.noseMpointer {
+    left: -110px;
+    top: 100px;
+}
+
+.structure.male .body_list.right>li.noseMpointer>a:before {
+    content: url(../../body/parts/noseMpointerImgWhite.png);
+    position: absolute;
+    left: -235px;
+    top: -23px;
+    width: 182px;
+}
+
+.body_list.right>li.noseMpointer>a:hover:before,
+.structure.male .body_list.right>li.noseMpointer:hover>a:before {
+    content: url(../../body/parts/noseMpointerImgRed.png);
+}
+
+.structure.male .body_list.right>li.heartMpointer {
+    left: -145px;
+    top: 162px;
+}
+
+.structure.male .body_list.right>li.heartMpointer>a:before {
+    content: url(../../body/parts/elbowMpointerImgWhite.png);
+    position: absolute;
+    left: -170px;
+    top: 0;
+    width: 160px;
+}
+
+.body_list.right>li.heartMpointer>a:hover:before,
+.structure.male .body_list.right>li.heartMpointer:hover>a:before {
+    content: url(../../body/parts/heartMpointerImgRed.png);
+}
+
+.structure.male .body_list.right>li.lungMpointer {
+    left: -143px;
+    top: 197px;
+}
+
+.structure.male .body_list.right>li.lungMpointer>a:before {
+    content: url(../../body/parts/elbowMpointerImgWhite.png);
+    position: absolute;
+    left: -170px;
+    top: 0;
+    width: 160px;
+}
+
+.body_list.right>li.lungMpointer>a:hover:before,
+.structure.male .body_list.right>li.lungMpointer:hover>a:before {
+    content: url(../../body/parts/lungMpointerImgRed.png);
+}
+
+.structure.male .body_list.right>li.elbowMpointer {
+    left: -105px;
+    top: 240px;
+}
+
+.structure.male .body_list.right>li.elbowMpointer>a:before {
+    content: url(../../body/parts/elbowMpointerImgWhite.png);
+    position: absolute;
+    left: -170px;
+    top: 0;
+    width: 160px;
+}
+
+.body_list.right li.elbowMpointer>a:hover:before,
+.structure.male .body_list.right>li.elbowMpointer:hover>a:before {
+    content: url(../../body/parts/elbowMpointerImgRed.png);
+}
+
+.structure.male .body_list.right>li.spineMpointer {
+    left: -145px;
+    top: 265px;
+}
+
+.structure.male .body_list.right>li.spineMpointer>a:before {
+    content: url(../../body/parts/spineMpointerImgWhite.png);
+    position: absolute;
+    left: -210px;
+    top: -20px;
+    width: 200px;
+}
+
+.body_list.right li.spineMpointer>a:hover:before,
+.structure.male .body_list.right>li.spineMpointer:hover>a:before {
+    content: url(../../body/parts/spineMpointerImgRed.png);
+}
+
+.structure.male .body_list.right>li.stomachMpointer {
+    left: -115px;
+    top: 340px;
+}
+
+.structure.male .body_list.right>li.stomachMpointer>a:before {
+    content: url(../../body/parts/brainMpointerImgWhite.png);
+    position: absolute;
+    left: -235px;
+    top: -23px;
+    width: 198px;
+}
+
+.body_list.right li.stomachMpointer>a:hover:before,
+.structure.male .body_list.right>li.stomachMpointer:hover>a:before {
+    content: url(../../body/parts/stomachMpointerImgRed.png);
+}
+
+.structure.male .body_list.right>li.hipMpointer {
+    left: -92px;
+    top: 372px;
+}
+
+.structure.male .body_list.right>li.hipMpointer>a {
+    min-width: 90px;
+}
+
+.structure.male .body_list.right>li.hipMpointer>a:before {
+    content: url(../../body/parts/hipMpointerImgWhite.png);
+    position: absolute;
+    left: -195px;
+    top: 0;
+    width: 200px;
+}
+
+.body_list.right li.hipMpointer>a:hover:before,
+.structure.male .body_list.right>li.hipMpointer:hover>a:before {
+    content: url(../../body/parts/hipMpointerImgRed.png);
+}
+
+.structure.male .body_list.right>li.kneeMpointer {
+    left: -155px;
+    top: 510px;
+}
+
+.structure.male .body_list.right>li.kneeMpointer>a:before {
+    content: url(../../body/parts/elbowMpointerImgWhite.png);
+    position: absolute;
+    left: -165px;
+    top: 0;
+    width: 160px;
+}
+
+.body_list.right li.kneeMpointer>a:hover:before,
+.structure.male .body_list.right>li.kneeMpointer:hover>a:before {
+    content: url(../../body/parts/kneeMpointerImgRed.png);
+}
+
+.structure.male .body_list.right>li.ankleMpointer {
+    left: -105px;
+    top: 600px;
+}
+
+.structure.male .body_list.right>li.ankleMpointer>a:before {
+    content: url(../../body/parts/ankleMpointerImgWhite.png);
+    position: absolute;
+    left: -228px;
+    top: 6px;
+    width: 215px;
+}
+
+.body_list.right li:nth-child(10)>a:hover:before,
+.structure.male .body_list.right>li.ankleMpointer:hover>a:before {
+    content: url(../../body/parts/ankleMpointerImgRed.png);
+}
+
+.structure.female .body_list.left>li.eyeMpointer {
+    left: 70px;
+    top: 60px;
+}
+
+.structure.female .body_list.left>li.eyeMpointer>a:before {
+    content: url(../../body/parts/earMPointerImgWhite.png);
+    position: absolute;
+    right: -265px;
+}
+
+.body_list.left>li.eyeMpointer>a:hover:before,
+.structure.female .body_list.left>li.eyeMpointer:hover>a:before {
+    content: url(../../body/parts/eyeMpointerImgRed.png);
+}
+
+.structure.female .body_list.left>li.earMPointer {
+    left: 50px;
+    top: 75px;
+}
+
+.structure.female .body_list.left>li.earMPointer>a:before {
+    content: url(../../body/parts/earMPointerImgWhite.png);
+    position: absolute;
+    right: -265px;
+}
+
+.body_list.left>li.earMPointer>a:hover:before,
+.structure.female .body_list.left>li.earMPointer:hover>a:before {
+    content: url(../../body/parts/earMPointerImgRed.png);
+}
+
+.structure.female .body_list.left>li.teethMpointer {
+    left: 80px;
+    top: 110px;
+}
+
+.structure.female .body_list.left>li.teethMpointer>a:before {
+    content: url(../../body/parts/teethMpointerImgWhite.png);
+    position: absolute;
+    right: -260px;
+    top: -14px;
+}
+
+.body_list.left>li.teethMpointer>a:hover:before,
+.structure.female .body_list.left>li.teethMpointer:hover>a:before {
+    content: url(../../body/parts/teethMpointerImgRed.png);
+}
+
+.structure.female .body_list.left>li.throatMpointer {
+    left: 80px;
+    top: 145px;
+}
+
+.structure.female .body_list.left>li.throatMpointer>a:before {
+    content: url(../../body/parts/throatMpointerImgWhite.png);
+    position: absolute;
+    right: -260px;
+    top: -23px;
+}
+
+.body_list.left>li.throatMpointer>a:hover:before,
+.structure.female .body_list.left>li.throatMpointer:hover>a:before {
+    content: url(../../body/parts/throatMpointerImgRed.png);
+}
+
+.structure.female .body_list.left>li.chestMpointer {
+    left: 0;
+    top: 185px;
+}
+
+.structure.female .body_list.left>li.chestMpointer>a:before {
+    content: url(../../body/parts/chestMpointerImgWhite.png);
+    position: absolute;
+    right: -315px;
+    top: -2px;
+}
+
+.body_list.left>li.chestMpointer>a:hover:before,
+.structure.female .body_list.left>li.chestMpointer:hover>a:before {
+    content: url(../../body/parts/chestMpointerImgRed.png);
+}
+
+.structure.female .body_list.left>li.liverMpointer {
+    left: 30px;
+    top: 215px;
+}
+
+.structure.female .body_list.left>li.liverMpointer>a:before {
+    content: url(../../body/parts/liverMpointerImgWhite.png);
+    position: absolute;
+    right: -303px;
+    top: 0;
+}
+
+.body_list.left>li.liverMpointer>a:hover:before,
+.structure.female .body_list.left>li.liverMpointer:hover>a:before {
+    content: url(../../body/parts/liverMpointerImgRed.png);
+}
+
+.structure.female .body_list.left>li.handMpointer {
+    left: -5px;
+    top: 255px;
+}
+
+.structure.female .body_list.left>li.handMpointer>a:before {
+    content: url(../../body/parts/handMpointerImgWhite.png);
+    position: absolute;
+    right: -250px;
+    top: -2px;
+}
+
+.body_list.left>li.handMpointer>a:hover:before,
+.structure.female .body_list.left>li.handMpointer:hover>a:before {
+    content: url(../../body/parts/handMpointerImgRed.png);
+}
+
+.structure.female .body_list.left>li.kidneysMpointer {
+    left: 55px;
+    top: 280px;
+}
+
+.structure.female .body_list.left>li.kidneysMpointer>a:before {
+    content: url(../../body/parts/kidneysMpointerImgWhite.png);
+    position: absolute;
+    right: -262px;
+    top: 8px;
+}
+
+.body_list.left>li.kidneysMpointer>a:hover:before,
+.structure.female .body_list.left>li.kidneysMpointer:hover>a:before {
+    content: url(../../body/parts/kidneysMpointerImgRed.png);
+}
+
+.structure.female .body_list.left>li.lowerBackMpointer {
+    left: 50px;
+    top: 340px;
+}
+
+.structure.female .body_list.left>li.lowerBackMpointer>a:before {
+    content: url(../../body/parts/lowerBackMpointerImgWhite.png);
+    position: absolute;
+    right: -285px;
+    top: -7px;
+}
+
+.body_list.left>li.lowerBackMpointer>a:hover:before,
+.structure.female .body_list.left>li.lowerBackMpointer:hover>a:before {
+    content: url(../../body/parts/lowerBackMpointerImgRed.png);
+}
+
+.body_list.left>li.lowerBackMpointer>a:hover .txt,
+.structure.female .body_list.left>li.lowerBackMpointer:hover>a .txt {
+    transform: scale(1.5);
+    top: -1px;
+    left: -20px;
+    color: #f87a2f;
+}
+
+.structure.female .body_list.left>li.lowerBackMpointer .right_txt {
+    left: -370px;
+}
+
+.structure.female .body_list.left>li.lowerBackMpointer:hover .right_txt {
+    left: -380px;
+}
+
+.structure.female .body_list.left>li.lowerBackMpointer>a>.txt {
+    white-space: nowrap;
+}
+
+.structure.female .body_list.left>li.reproductiveMpointer {
+    left: 55px;
+    top: 380px;
+}
+
+.structure.female .body_list.left>li.reproductiveMpointer>a:before {
+    content: url(../../body/parts/reproductiveMpointerImgWhite.png);
+    position: absolute;
+    right: -292px;
+    top: -3px;
+}
+
+.body_list.left>li.reproductiveMpointer>a:hover:before,
+.structure.female .body_list.left>li.reproductiveMpointer:hover>a:before {
+    content: url(../../body/parts/reproductiveMpointerImgRed.png);
+}
+
+.body_list.left>li.reproductiveMpointer>a:hover .txt,
+.structure.female .body_list.left>li.reproductiveMpointer:hover>a .txt {
+    transform: scale(1.5);
+    top: -1px;
+    left: -20px;
+    color: #f87a2f;
+}
+
+.structure.female .body_list.left>li.reproductiveMpointer .right_txt {
+    left: -370px;
+}
+
+.structure.female .body_list.left>li.reproductiveMpointer:hover .right_txt {
+    left: -380px;
+}
+
+.structure.female .body_list.left>li.reproductiveMpointer>a>.txt {
+    text-align: left;
+    line-height: 16px;
+}
+
+.structure.female .body_list.left>li.thighMpointer {
+    left: 100px;
+    top: 440px;
+}
+
+.structure.female .body_list.left>li.thighMpointer>a:before {
+    content: url(../../body/parts/elbowMpointerImgWhite.png);
+    position: absolute;
+    right: -205px;
+    top: 0;
+}
+
+.body_list.left>li.thighMpointer>a:hover:before,
+.structure.female .body_list.left>li.thighMpointer:hover>a:before {
+    content: url(../../body/parts/thighMpointerImgRed.png);
+}
+
+.structure.female .body_list.left>li.footMpointer {
+    left: 50px;
+    top: 660px;
+}
+
+.structure.female .body_list.left>li.footMpointer>a:before {
+    content: url(../../body/parts/footMpointerImgWhite.png);
+    position: absolute;
+    right: -265px;
+    top: 8px;
+}
+
+.body_list.left>li.footMpointer>a:hover:before,
+.structure.female .body_list.left>li.footMpointer:hover>a:before {
+    content: url(../../body/parts/footMpointerImgRed.png);
+}
+
+.structure.female .body_list.right>li>a>.txt {
+    left: auto;
+    right: -40px;
+}
+
+.body_list.right>li>a:hover .txt,
+.structure.female .body_list.right>li:hover>a .txt {
+    left: auto;
+    right: -50px;
+}
+
+.structure.female .body_list.right>li.brainMpointer {
+    left: -132px;
+    top: 70px;
+}
+
+.structure.female .body_list.right>li.brainMpointer>a:before {
+    content: url(../../body/parts/brainMpointerImgWhite.png);
+    position: absolute;
+    left: -210px;
+    top: -22px;
+    width: 200px;
+}
+
+.body_list.right>li.brainMpointer>a:hover:before,
+.structure.female .body_list.right>li.brainMpointer:hover>a:before {
+    content: url(../../body/parts/brainMpointerImgRed.png);
+}
+
+.structure.female .body_list.right>li.noseMpointer {
+    left: -110px;
+    top: 112px;
+}
+
+.structure.female .body_list.right>li.noseMpointer>a:before {
+    content: url(../../body/parts/noseMpointerImgWhite.png);
+    position: absolute;
+    left: -235px;
+    top: -23px;
+    width: 182px;
+}
+
+.body_list.right>li.noseMpointer>a:hover:before,
+.structure.female .body_list.right>li.noseMpointer:hover>a:before {
+    content: url(../../body/parts/noseMpointerImgRed.png);
+}
+
+.structure.female .body_list.right>li.heartMpointer {
+    left: -145px;
+    top: 172px;
+}
+
+.structure.female .body_list.right>li.heartMpointer>a:before {
+    content: url(../../body/parts/elbowMpointerImgWhite.png);
+    position: absolute;
+    left: -170px;
+    top: 0;
+    width: 160px;
+}
+
+.body_list.right>li.heartMpointer>a:hover:before,
+.structure.female .body_list.right>li.heartMpointer:hover>a:before {
+    content: url(../../body/parts/heartMpointerImgRed.png);
+}
+
+.structure.female .body_list.right>li.lungMpointer {
+    left: -155px;
+    top: 215px;
+}
+
+.structure.female .body_list.right>li.lungMpointer>a:before {
+    content: url(../../body/parts/elbowMpointerImgWhite.png);
+    position: absolute;
+    left: -170px;
+    top: 0;
+    width: 160px;
+}
+
+.body_list.right>li.lungMpointer>a:hover:before,
+.structure.female .body_list.right>li.lungMpointer:hover>a:before {
+    content: url(../../body/parts/lungMpointerImgRed.png);
+}
+
+.structure.female .body_list.right>li.elbowMpointer {
+    left: -100px;
+    top: 250px;
+}
+
+.structure.female .body_list.right>li.elbowMpointer>a:before {
+    content: url(../../body/parts/elbowMpointerImgWhite.png);
+    position: absolute;
+    left: -170px;
+    top: 0;
+    width: 160px;
+}
+
+.body_list.right li.elbowMpointer>a:hover:before,
+.structure.female .body_list.right>li.elbowMpointer:hover>a:before {
+    content: url(../../body/parts/elbowMpointerImgRed.png);
+}
+
+.structure.female .body_list.right>li.spineMpointer {
+    left: -150px;
+    top: 277px;
+}
+
+.structure.female .body_list.right>li.spineMpointer>a:before {
+    content: url(../../body/parts/spineMpointerImgWhite.png);
+    position: absolute;
+    left: -210px;
+    top: -20px;
+    width: 200px;
+}
+
+.body_list.right li.spineMpointer>a:hover:before,
+.structure.female .body_list.right>li.spineMpointer:hover>a:before {
+    content: url(../../body/parts/spineMpointerImgRed.png);
+}
+
+.structure.female .body_list.right>li.stomachMpointer {
+    left: -115px;
+    top: 355px;
+}
+
+.structure.female .body_list.right>li.stomachMpointer>a:before {
+    content: url(../../body/parts/brainMpointerImgWhite.png);
+    position: absolute;
+    left: -235px;
+    top: -23px;
+    width: 198px;
+}
+
+.body_list.right li.stomachMpointer>a:hover:before,
+.structure.female .body_list.right>li.stomachMpointer:hover>a:before {
+    content: url(../../body/parts/stomachMpointerImgRed.png);
+}
+
+.structure.female .body_list.right>li.hipMpointer {
+    left: -92px;
+    top: 390px;
+}
+
+.structure.female .body_list.right>li.hipMpointer>a {
+    min-width: 90px;
+}
+
+.structure.female .body_list.right>li.hipMpointer>a:before {
+    content: url(../../body/parts/hipMpointerImgWhite.png);
+    position: absolute;
+    left: -195px;
+    top: 0;
+    width: 200px;
+}
+
+.body_list.right li.hipMpointer>a:hover:before,
+.structure.female .body_list.right>li.hipMpointer:hover>a:before {
+    content: url(../../body/parts/hipMpointerImgRed.png);
+}
+
+.structure.female .body_list.right>li.kneeMpointer {
+    left: -155px;
+    top: 530px;
+}
+
+.structure.female .body_list.right>li.kneeMpointer>a:before {
+    content: url(../../body/parts/elbowMpointerImgWhite.png);
+    position: absolute;
+    left: -165px;
+    top: 0;
+    width: 160px;
+}
+
+.body_list.right li.kneeMpointer>a:hover:before,
+.structure.female .body_list.right>li.kneeMpointer:hover>a:before {
+    content: url(../../body/parts/kneeMpointerImgRed.png);
+}
+
+.structure.female .body_list.right>li.ankleMpointer {
+    left: -105px;
+    top: 630px;
+}
+
+.structure.female .body_list.right>li.ankleMpointer>a:before {
+    content: url(../../body/parts/ankleMpointerImgWhite.png);
+    position: absolute;
+    left: -228px;
+    top: 6px;
+    width: 215px;
+}
+
+.body_list.right li:nth-child(10)>a:hover:before,
+.structure.female .body_list.right>li.ankleMpointer:hover>a:before {
+    content: url(../../body/parts/ankleMpointerImgRed.png);
+}
+
+.multiFunctionPopup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 33, 39, 0.9);
+    display: none;
+}
+.multiFunctionPopup .inner {
+    height: 100%;
+}
+.multiFunctionPopup .inner .row {
+    height: 100%;
+    position: relative;
+}
+.multiFunctionMain {
+    position: absolute;
+    width: 400px;
+    border: #f87a2f dashed 1px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 15%;
+    background: #0f5866;
+    background: -moz-linear-gradient(top, #0f5866 0, #012f38 100%);
+    background: -webkit-linear-gradient(top, #0f5866 0, #012f38 100%);
+    background: linear-gradient(to bottom, #0f5866 0, #012f38 100%);
+}
+.multiFunctionMain h2 {
+    /* font-family: frutiger_boldregular; */
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    background: #f87a2f;
+    padding: 20px;
+    margin: 0;
+}
+.multiFunctionMain ul {
+    padding: 10px 20px 10px 20px;
+    margin: 0;
+    list-style: none;
+    display: block;
+}
+.multiFunctionMain li a {
+    /* font-family: FrutigerLTStd55Roman; */
+    color: #fff;
+    font-size: 15px;
+    padding: 15px 0;
+    display: block;
+    border-bottom: #427b86 solid 1px;
+}
+.multiFunctionMain li a:hover {
+    color: #f87a2f;
+}
+.multiFunctionMain li:last-child a {
+    border-bottom: 0;
+}
+.multiFunctionMain span {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+}
+
+.forOtherProTxt {
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    padding-left: 15px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.forOtherProTxt a {
+    color: #f87a2f;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* FAQ */
+.faq-wrap {
+    margin-top: 30px;
+}
+
+.faq-wrap .panel-heading {
+    padding: 0;
+}
+
+.faq-wrap .panel-title button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    width: 100%;
+    height: auto;
+}
+
+.faq-wrap .panel-title p {
+    margin-bottom: 0;
+}
+
+.faq-head {
+    font-size: 18px;
+    margin: 25px 0 15px;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 5px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.faq-head span {
+    border-bottom: 3px solid #ed1f24;
+    padding-bottom: 9px;
+    line-height: 30px;
+}
+
+.faq-wrap .panel-title {
+    margin-bottom: 0;
+}
+
+.faq-wrap .panel-title button .icon-plus {
+    display: none;
+}
+
+.faq-wrap .panel-title button {
+    background: #00a950;
+    text-decoration: none !important;
+}
+
+.faq-wrap .panel-title button.collapsed {
+    background: #f5f5f5;
+}
+
+.faq-wrap .panel-title button p {
+    color: #fff;
+    font-size: 17px;
+}
+
+.faq-wrap .panel-title button.collapsed p {
+    color: #222;
+}
+
+.faq-wrap .panel-title button.collapsed .icon-minus {
+    display: none;
+}
+
+.faq-wrap .panel-title button.collapsed .icon-plus {
+    display: block;
+}
+
+.faq-wrap .panel-body {
+    text-align: left;
+}
+
+.dowload-corporate-btn {
+    padding: 10px;
+    background-color: #318733;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dowload-corporate-btn:hover {
+    background-color: #00a950;
+    text-decoration: none !important;
+}

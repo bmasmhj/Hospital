@@ -1,0 +1,129 @@
+Return-Path: <>
+Delivered-To: npesport@r246.sgp7.mysecurecloudhost.com
+Received: from r246.sgp7.mysecurecloudhost.com
+	by r246.sgp7.mysecurecloudhost.com with LMTP
+	id AFnzF291mWC5fQAAmod+Ig
+	(envelope-from <>)
+	for <npesport@r246.sgp7.mysecurecloudhost.com>; Mon, 10 May 2021 18:03:27 +0000
+Return-path: <>
+Envelope-to: npesport@r246.sgp7.mysecurecloudhost.com
+Delivery-date: Mon, 10 May 2021 18:03:27 +0000
+Received: from anteater.oak.relay.mailchannels.net ([23.83.215.3]:56643)
+	by r246.sgp7.mysecurecloudhost.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	id 1lgAFb-0003NE-1K
+	for npesport@r246.sgp7.mysecurecloudhost.com; Mon, 10 May 2021 18:03:27 +0000
+Received: by relay.mailchannels.net (Postfix)
+	id 846B8682153; Mon, 10 May 2021 18:03:24 +0000 (UTC)
+Date: Mon, 10 May 2021 18:03:24 +0000 (UTC)
+From: MAILER-DAEMON@mailchannels.net (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: npesport@r246.sgp7.mysecurecloudhost.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="9DADA682238.1620669804/relay.mailchannels.net"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20210510180324.846B8682153@relay.mailchannels.net>
+
+This is a MIME-encapsulated message.
+
+--9DADA682238.1620669804/relay.mailchannels.net
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host relay.mailchannels.net.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<a@gmail.com>: host gmail-smtp-in.l.google.com[74.125.195.26] said: 550-5.1.1
+    The email account that you tried to reach does not exist. Please try
+    550-5.1.1 double-checking the recipient's email address for typos or
+    550-5.1.1 unnecessary spaces. Learn more at 550 5.1.1
+    https://support.google.com/mail/?p=NoSuchUser a2si19515345plm.269 - gsmtp
+    (in reply to RCPT TO command)
+
+--9DADA682238.1620669804/relay.mailchannels.net
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+Content-Transfer-Encoding: 8bit
+
+Reporting-MTA: dns; relay.mailchannels.net
+X-Postfix-Queue-ID: 9DADA682238
+X-Postfix-Sender: rfc822; npesport@r246.sgp7.mysecurecloudhost.com
+Arrival-Date: Mon, 10 May 2021 18:03:21 +0000 (UTC)
+
+Final-Recipient: rfc822; a@gmail.com
+Original-Recipient: rfc822;a@gmail.com
+Action: failed
+Status: 5.1.1
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.1.1 The email account that you tried to reach does
+    not exist. Please try 550-5.1.1 double-checking the recipient's email
+    address for typos or 550-5.1.1 unnecessary spaces. Learn more at 550 5.1.1
+    https://support.google.com/mail/?p=NoSuchUser a2si19515345plm.269 - gsmtp
+
+--9DADA682238.1620669804/relay.mailchannels.net
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <npesport@r246.sgp7.mysecurecloudhost.com>
+Received: from relay.mailchannels.net (localhost [127.0.0.1])
+	by relay.mailchannels.net (Postfix) with ESMTP id 9DADA682238
+	for <a@gmail.com>; Mon, 10 May 2021 18:03:21 +0000 (UTC)
+Received: from r246.sgp7.mysecurecloudhost.com (100-96-133-96.trex.outbound.svc.cluster.local [100.96.133.96])
+	(Authenticated sender: t56suolmmq)
+	by relay.mailchannels.net (Postfix) with ESMTPA id ED133682241
+	for <a@gmail.com>; Mon, 10 May 2021 18:03:20 +0000 (UTC)
+X-Sender-Id: t56suolmmq|x-authuser|npesport@r246.sgp7.mysecurecloudhost.com
+Received: from r246.sgp7.mysecurecloudhost.com
+ (r246.sgp7.mysecurecloudhost.com [172.104.33.25])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384)
+	by 100.96.133.96 (trex/6.2.1);
+	Mon, 10 May 2021 18:03:21 +0000
+X-MC-Relay: Junk
+X-MailChannels-SenderId:
+ t56suolmmq|x-authuser|npesport@r246.sgp7.mysecurecloudhost.com
+X-MailChannels-Auth-Id: t56suolmmq
+X-Befitting-Lonely: 20f3e4706c409d56_1620669801388_2960992498
+X-MC-Loop-Signature: 1620669801388:2815442478
+X-MC-Ingress-Time: 1620669801388
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=r246.sgp7.mysecurecloudhost.com; s=default; h=Date:Message-Id:From:Subject:
+	To:Sender:Reply-To:Cc:MIME-Version:Content-Type:Content-Transfer-Encoding:
+	Content-ID:Content-Description:Resent-Date:Resent-From:Resent-Sender:
+	Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:References:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=fnPcQ3KNeUVCHfztGv2ehgfAQEFjPJO11O0St5euAjw=; b=tFBzQM7QkSXT4BGBJRU2eOtUwX
+	enh9bZsTO3Yq4uff8iRMN9L7CQ6Gysdtc9yeWYUDogw1kXiM7Swvcy6lrOShgtQo39WzhRvpQ6ieR
+	+V8YuJK2/6zd4t5N/MMvKi9IWZ+mYelvlVdIdDEqFnbcElCv8SLg7jUGyICpYVCIdlGPCtV9JftyL
+	c7QDIz46fvZc+bMVGCfgSC9++2pMbBmpbvCSYrZCjrks980RfmyRPm0Mf7AnmGy7WUrPMwMYaXp5C
+	Wm2VKuCA3N+356PUun1dy3vxUIdkQ8jbZMiVqTHl4wSv/geVaW+D4Z24ks5GZDf9CGNioeuhY4Uda
+	405Vv3lg==;
+Received: from npesport by r246.sgp7.mysecurecloudhost.com with local (Exim 4.94.2)
+	(envelope-from <npesport@r246.sgp7.mysecurecloudhost.com>)
+	id 1lgAFR-0003Jc-6q
+	for a@gmail.com; Mon, 10 May 2021 18:03:18 +0000
+To: a@gmail.com
+Subject: Email Verification Code
+X-PHP-Script: www.npesport.com/create/signup-user.php for 27.34.13.160
+X-PHP-Filename: /home/npesport/public_html/create/signup-user.php REMOTE_ADDR: 27.34.13.160
+From: noreply@npesport.com
+Message-Id: <E1lgAFR-0003Jc-6q@r246.sgp7.mysecurecloudhost.com>
+Date: Mon, 10 May 2021 18:03:17 +0000
+X-OutGoing-Spam-Status: No, score=2.7
+X-AuthUser: npesport@r246.sgp7.mysecurecloudhost.com
+
+Your verification code is 374185
+
+--9DADA682238.1620669804/relay.mailchannels.net--

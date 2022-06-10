@@ -1,0 +1,36 @@
+
+ErrorDocument 400 https://bimash.com.np/Error/400
+ErrorDocument 401 https://bimash.com.np/Error/401
+ErrorDocument 403 https://bimash.com.np/Error/403
+ErrorDocument 404 https://bimash.com.np/Error/404
+ErrorDocument 503 https://bimash.com.np/Error/503
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+RewriteRule ^(.*)$ $1.html [NC,L]
+RewriteRule ^ForgotPassword  forgot-password.php [NC,L]
+RewriteRule ^Dashboard  dashboard.php [NC,L]
+RewriteRule ^Login  login-user.php [NC,L]
+RewriteRule ^Logout  logout-user.php [NC,L]
+RewriteRule ^NewPassword  new-password.php [NC,L]
+RewriteRule ^PasswordChanged  password-changed.php [NC,L]
+RewriteRule ^ResetCode  reset-code.php [NC,L]
+RewriteRule ^Resend resendemail.php [NC,L]
+RewriteRule ^Records record.php [NC,L]
+
+
+RewriteRule ^Register  register.php [NC,L]
+RewriteRule ^Verification  user-otp.php [NC,L]
+RewriteRule ^AccountVerification  acc-otp.php [NC,L]
+
+
+
+RewriteRule ^400  400.html [NC,L]
+RewriteRule ^401  401.html [NC,L]
+RewriteRule ^403  403.html [NC,L]
+RewriteRule ^404  404.html [NC,L]
+RewriteRule ^503  503.html [NC,L]
